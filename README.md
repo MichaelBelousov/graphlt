@@ -1,3 +1,7 @@
+> [!NOTE]  
+> We are in the process of transitioning work on `graphltc` to this repository.
+> In the meanwhile, this has been made public
+
 ## Graphl
 
 Graphl (graph-uhl) is a visual programming language and associated embeddable visual IDE.
