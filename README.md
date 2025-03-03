@@ -1,5 +1,5 @@
-> [!NOTE]  
-> We are in the process of transitioning work on `graphltc` to this repository.
+> [!NOTE]
+> We are in the process of transitioning work on `graphl` to this repository.
 > In the meanwhile, this has been made public
 
 ## Graphl
@@ -9,7 +9,7 @@ Currently the main execution backend is a compiler to [WebAssembly](https://weba
 
 ## Graphlt
 
-Graphlt (graph-ult) is a textual programming language that is isomorphic to the Graphl
+Graphlt (graph-ult) is the textual programming language that is isomorphic to the Graphl
 visual programming language.
 
 It is very early and experimental but capable and we'd be happy to help you make it work for you!
@@ -26,6 +26,7 @@ Built with zig 0.13.0
 
 ```sh
 zig build graphltc
+# open sourcing of the IDE is in progress!
 ```
 
 ## Goals:
@@ -51,11 +52,3 @@ zig build graphltc
 - standard library
 - graph formatting
 - a lot
-
-## License
-
-Graphlt and its compiler (graphltc) in this repository are MIT licensed.
-The Graphl IDE's source is not publicly available, although the SDK
-is free to use in non-commercial projects. See the [Graphl license](https://graphl.tech/commercial/)
-for more information.
-
